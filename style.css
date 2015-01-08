@@ -1,0 +1,777 @@
+body {
+	/*background-color:#941f61 ;*/
+	background-image:url(images/bgroot.png);
+	background-attachment:fixed;
+	
+	background-size: cover;
+	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #03C;
+}
+a:visited {
+	text-decoration: none;
+	color: #039;
+}
+a:hover {
+	text-decoration: none;
+	color: #006;
+}
+a:active {
+	text-decoration: none;
+}
+
+.headere{
+ text-align:center;
+ background-image:url(images/headfoot.jpg);
+ background-repeat:repeat-x;
+ height:11px;
+}
+.headerdua{
+ text-align:center;
+ background-image:url(images/headatasrepeat.jpg);
+ background-repeat:repeat-x;
+ height:107px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#026dac;
+	width:100%;
+	left: 0px;
+}
+.headerduah{
+ text-align:center;
+ background-color:#941f61;
+
+}
+.tombolbg{
+	width:100%;
+text-align:center;
+ background-color:#3F0;
+}
+.tblkiri{
+	background-image:url(images/btnkiri.png);
+background-repeat:no-repeat;
+
+width:16px;
+height:31px;
+}
+.tblisi{
+		background-image:url(images/tbl.jpg);
+background-repeat:no-repeat;
+width:104px;
+height:31px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:11px;
+font-size-adjust:inherit;
+text-align:center;
+}
+.tblisi:hover{
+	background-image:url(images/tblhover.jpg);
+}
+
+.tblkanan{
+	background-image:url(images/btnkanan.png);
+	background-repeat:no-repeat;
+width:16px;
+height:31px;
+
+}
+
+.isitombol{
+	background-color:#e7e7e7;
+	height: 31px;
+	width:50px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	background-position:center;
+	color:#663399;
+}
+.spasitombol{
+
+}
+.arrow-right{
+	width: 0; 
+	height: 0; 
+	border-bottom: 5px solid transparent;  /* left arrow slant */
+	border-top: 5px solid transparent; /* right arrow slant */
+	border-left: 5px solid #e7e7e7; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+}
+.arrow-left{
+	width: 0px; 
+	height: 0px; 
+	border-bottom: 5px solid transparent;  /* left arrow slant */
+	border-top: 5px solid transparent; /* right arrow slant */
+	border-right: 5px solid #e7e7e7; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+
+}
+.isitombol:hover{
+	background-color:#c4186a;
+}
+.isitombol:hover +.arrow-right {
+	border-left: 5px solid #c4186a; /* bottom, add background color here */
+}
+.isitombol:hover +.arrow-left {
+	border-right: 5px solid #c4186a;  /* bottom, add background color here */
+}
+.bawahslide{
+ width:100%;
+ background-image:url(images/bawahslide.png);
+ position:relative;
+ background-repeat:no-repeat;
+ background-position:center;
+ text-align:center;
+ height:10px;
+ margin: 0 auto; top: 0px; 
+}
+
+.spasikedua{
+	height:3px;
+}
+.bgheadisi{
+	background:url(images/headerisi2.png) left bottom no-repeat,
+	url(images/transparanataskanan.png) right bottom no-repeat,
+	url(images/transparanatas1.png) center 30px no-repeat,
+	url(images/bgroot-sr.jpg) repeat-x;
+	text-align:center;
+ height:61px;
+ width:57%;
+ margin: 0 auto; top: 0px;
+ box-shadow: 0px 1px 5px #c6c6c6;
+ font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	color:#005d93
+}
+.bgheadisikcil{
+	background:url(images/headerisi2.png) left bottom no-repeat,
+	url(images/transparanataskanan.png) right bottom no-repeat,
+	url(images/transparanatas1.png) center 30px no-repeat,
+	url(images/bgroot-sr.jpg) repeat-x;
+	text-align:center;
+ height:61px;
+ width:57%;
+ margin: 0 auto; top: 0px;
+ box-shadow: 0px 1px 5px #c6c6c6;
+ font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	color:#005d93
+}
+.isicontent{
+	background-color:#FFF;
+	box-shadow: 0px 0px 5px #c6c6c6;
+	 width:80%;
+	margin: auto;
+	
+}
+.bbgue{
+	
+border-top-left-radius: 10px 5px;
+border-bottom-right-radius: 10% 5%;
+border-top-right-radius: 10px; }
+.isidiisi{
+	background-color:#FFF;
+	/*border:1px solid orange;*/
+	background-image:url(images/pita.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px 5% 0% 5%;
+}
+.isidiisinobg{
+	background-color:#FFF;
+	/*border:1px solid orange;*/
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px 5% 0% 5%;
+}
+.dummytulisan{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.tulisankontakkami{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+}
+.dummytulisanatas{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+}
+.dummytulisanbold{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+.bawahbawahslide{
+	background-color:#e0e0e0;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#026dac;
+	position:absolute;
+	width:100%;
+	height:100px;   /* Height of the footer */
+	left: 0px;
+	top: 530px;
+}
+.footer{
+	position:absolute;
+	width:100%;
+	height:20px;   /* Height of the footer */
+	background:#941f61;
+	left: 0px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	top: 630px;
+}
+.bawahbawahslide2{
+	background-color:#e0e0e0;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#026dac;
+	width:100%;
+	height:83px;   /* Height of the footer */
+	left: 0px;
+}
+.footer2{
+	width:100%;
+	height:20px;   /* Height of the footer */
+	background:#941f61;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	
+}
+
+
+.headerataskanan{
+	background-color:#d8216a;
+	background-repeat:repeat-x;
+	height:173px;
+	size:100%
+}
+.header{
+	background-image:url(images/welcomescreen.png);
+	background-position:center;
+	background-repeat:repeat-x;
+	height:173px;
+	width:1024px
+}
+.logowafasplash{
+	background-image:url(images/wafasmall.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.tulisanheader{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	background-position:center;
+	color:#663399;
+}
+.tulisanheadisi{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	background-position:center;
+	color:#005d93;
+}
+.tulisanctombol{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	
+	background-position:center;
+	color:#663399;
+}
+    
+
+
+.textfieldsearch{
+background-color:#e9e9e9;
+border:2px solid #999999;
+padding:5px;
+-webkit-border-radius:7px;
+-moz-border-radius:17px;
+color: #000;
+font-weight:bold;
+}
+
+/*------------------------------------------------------------------------------------*/
+/* #########################################################
+
+HOW TO CREATE A RESPONSIVE IMAGE SLIDER [TUTORIAL]
+
+"How to create a Responsive Image Slider [Tutorial]" was specially made for DesignModo by our friend Valeriu Timbuc.
+
+Links:
+http://vtimbuc.net
+http://designmodo.com
+http://vladimirkudinov.com
+
+######################################################### */
+.flex-container{position: relative;margin: 0 auto; top: 0px; }
+
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.flexslider a img { outline: none; border: none; }
+
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
+	width: 100%;
+	display: block;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
+
+
+
+/* Theme Styles */
+.flexslider {
+	position: relative;
+	zoom: 1;
+	padding: 10px;
+	background: #ffffff;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+}
+
+/* Edit it if you want */
+.flex-container {
+	min-width: 100px;
+	max-width: 800px;
+}
+
+.flexslider .slides { zoom: 1; }
+
+
+
+/* Direction Nav */
+.flex-direction-nav a {
+	display: block;
+	position: absolute;
+	margin: -17px 0 0 0;
+	width: 35px;
+	height: 35px;
+	top: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+	z-index: 9999;
+
+	background-color: #82d344;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#82d344), to(#51af34));
+	background-image: -webkit-linear-gradient(top, #82d344, #51af34);
+	background-image: -moz-linear-gradient(top, #82d344, #51af34);
+	background-image: -o-linear-gradient(top, #82d344, #51af34);
+	background-image: linear-gradient(to bottom, #82d344, #51af34);
+}
+
+.flex-direction-nav a:before {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 9px;
+	height: 13px;
+	top: 11px;
+	left: 11px;
+	background:url(img/arrows.png) no-repeat;
+}
+
+.flex-direction-nav a:after {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	top: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	right: -5px;
+
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.flex-direction-nav .flex-prev {
+	left: -5px;
+
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.flex-direction-nav .flex-next:before { background-position: -9px 0; left: 15px; }
+.flex-direction-nav .flex-prev:before { background-position: 0 0; }
+
+.flex-direction-nav .flex-next:after {
+	right: 0;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #31611e;
+}
+
+.flex-direction-nav .flex-prev:after {
+	left: 0;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #31611e;
+}
+
+
+
+/* Control Nav */
+.flexslider .flex-control-nav {
+	position: absolute;
+	width: 0%;
+	bottom: 0%;
+	text-align: center;
+	margin: 0 0 0 -10px;
+}
+
+.flex-control-nav li {
+	
+	zoom: 1;
+}
+
+.flex-control-paging li a {
+	display: block;
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 0%;
+	height: 0%;
+	margin: 0 3px;
+	background-color: #b6b6b6 \9;
+
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+
+	-webkit-box-shadow: inset 0 0 0 2px #b6b6b6;
+	-moz-box-shadow: inset 0 0 0 2px #b6b6b6;
+	box-shadow: inset 0 0 0 2px #b6b6b6;
+}
+
+.flex-control-paging li a.flex-active {
+	background-color: #82d344;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#82d344), to(#51af34));
+	background-image: -webkit-linear-gradient(top, #82d344, #51af34);
+	background-image: -moz-linear-gradient(top, #82d344, #51af34);
+	background-image: -o-linear-gradient(top, #82d344, #51af34);
+	background-image: linear-gradient(to bottom, #82d344, #51af34);
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+
+/* Captions */
+.flexslider .slides p {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 5px;
+	margin: 0;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 20px;
+	color: white;
+
+	background-color: #222222;
+	background: rgba(0,0,0, .9);
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+/*--------------------------------------------------------------------------------------*/
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+	
+}
+.clearfix:after {
+    clear: both;
+	
+}
+.clearfix {
+    *zoom: 1;
+
+}
+
+  /*--------------------------------------------------------------------------------------*/
+
+
+		li{
+			list-style:none;
+			list-style-type:none;
+		}
+ul{
+	margin:0;
+	padding:0;
+}
+
+		#nav
+		{
+	width: 80%; /* 1000 */
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:9px;
+	position:relative;
+	left:10%;
+	z-index:9;
+	/*top: 10%;*/
+	/* 30 480 */
+	
+		}
+
+			#nav > a
+			{
+				display: none;
+			}
+
+			#nav li
+			{
+				position:relative;
+			}
+				#nav li a
+				{
+					color: #000;
+					display: block;
+				}
+				#nav li a:active
+				{
+					background-color: #19478b !important;
+				}
+
+			#nav span:after
+			{
+				width: 0;
+				height: 0;
+				border: 0.313em solid transparent; /* 5 */
+				border-bottom: none;
+				border-top-color: #efa585;
+				content:'';
+				vertical-align: middle;
+				display: inline-block;
+				position: relative;
+				right: -0.313em; /* 5 */
+			}
+
+			/* first level */
+
+			#nav > ul
+			{
+				height: 3.75em; /* 60 */
+				background-color: #3877d5;
+				
+			}
+				#nav > ul > li
+				{
+	width: 12.5%;
+	height: 100%;
+	float: left;
+				}
+					#nav > ul > li > a
+					{
+						height: 100%;
+						font-size: 1.5em; /* 24 */
+						line-height: 2.5em; /* 60 (24) */
+						text-align: center;
+					}
+						#nav > ul > li:not( :last-child ) > a
+						{
+							border-right: 1px solid #ebebeb;
+						}
+						#nav > ul > li:hover > a,
+						#nav > ul:not( :hover ) > li.active > a
+						{
+							background-color: #ebebeb;
+						}
+
+
+				/* second level */
+
+				#nav li ul
+				{
+					background-color: #3794dc;
+					display: none;
+					position: absolute;
+					top: 100%;
+				}
+					#nav li:hover ul
+					{
+						display: block;
+						left: 0;
+						right: 0;
+					}
+						#nav li:not( :first-child ):hover ul
+						{
+							left: -1px;
+						}
+						#nav li ul a
+						{
+							font-size: 1.25em; /* 20 */
+							border-top: 1px solid #ededed;
+							padding: 0.75em; /* 15 (20) */
+						}
+							#nav li ul li a:hover,
+							#nav li ul:not( :hover ) li.active a
+							{
+								background-color: #ededed;
+							}
+
+
+		@media only screen and ( max-width: 62.5em ) /* 1000 */
+		{
+			#nav
+			{
+				width: 100%;
+				position: static;
+				margin: 0;
+			}
+		}
+
+		@media only screen and ( max-width: 40em ) /* 640 */
+		{
+			html
+			{
+				font-size: 75%; /* 12 */
+			}
+
+			#nav
+			{
+				position: relative;
+				top: auto;
+				left: auto;
+			}
+				#nav > a
+				{
+					width: 3.125em; /* 50 */
+					height: 3.125em; /* 50 */
+					text-align: left;
+					text-indent: -9999px;
+					background-color: #e15a1f;
+					position: relative;
+				}
+					#nav > a:before,
+					#nav > a:after
+					{
+						position: absolute;
+						border: 2px solid #fff;
+						top: 35%;
+						left: 25%;
+						right: 25%;
+						content: '';
+					}
+					#nav > a:after
+					{
+						top: 60%;
+					}
+
+				#nav:not( :target ) > a:first-of-type,
+				#nav:target > a:last-of-type
+				{
+					display: block;
+				}
+
+
+			/* first level */
+
+			#nav > ul
+			{
+				height: auto;
+				display: none;
+				position: absolute;
+				left: 0;
+				right: 0;
+			}
+				#nav:target > ul
+				{
+					display: block;
+				}
+				#nav > ul > li
+				{
+					width: 100%;
+					float: none;
+				}
+					#nav > ul > li > a
+					{
+						height: auto;
+						text-align: left;
+						padding: 0 0.833em; /* 20 (24) */
+					}
+						#nav > ul > li:not( :last-child ) > a
+						{
+							border-right: none;
+							border-bottom: 1px solid #cc470d;
+						}
+
+
+				/* second level */
+
+				#nav li ul
+				{
+					position: static;
+					padding: 1.25em; /* 20 */
+					padding-top: 0;
+				}
+		}
